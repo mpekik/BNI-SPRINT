@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Components
+@using Integrasi_HTML.Data
+
+@inject transaksi trx
+
+    <div class="col-md-8" style="margin-top: 6.5%;">
+        <h2 class="teks-hello2">Hello, <b class="nama-pelanggan">@trx._nasabah</b></h2>
+        <p id="teks" class="teks-desc4">Pilih periode cetak transaksi</p>
+
+        <div class="form-input-data">
+            <div id="btn-periode" class="col-md-12" style="text-align: center;">
+                <div class="form-group">
+                    <button type="button" class="btn2 btn-outline-danger2" @onclick="@(()=>OnClick.InvokeAsync("bulanberjalan"))">Periode bulan berjalan</button>
+                    <button type="button" class="btn2 btn-outline-danger2" style="margin-left: 0.5rem;" @onclick="@(()=>OnClick.InvokeAsync("bulanterakhir"))">Periode 1 bulan terakhir</button>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn2 btn-outline-danger2" @onclick="@(()=>OnClick.InvokeAsync("bulanlalu"))">Periode bulan lalu</button>
+                    <button type="button" class="btn2 btn-outline-danger2" style="margin-left: 0.5rem;" @onclick="@(()=>OnClick.InvokeAsync("sepuluhterakhir"))">10 transaksi terakhir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@code {
+    [Parameter]
+    public EventCallback<string> OnClick { get; set; }
+}

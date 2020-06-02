@@ -1,0 +1,196 @@
+﻿@using Microsoft.AspNetCore.Components
+@using Integrasi_HTML.Data
+@using System.IO;
+
+@inject transaksi trx
+
+
+    <div class="col-md-8" style="margin-top: 7%; text-align: center;">
+        <h2 id="" class="teks-hello2">Hello, <b class="nama-pelanggan">@trx._nasabah</b></h2>
+        <p id="" class="teks-desc4">Masukkan data buku tabungan Anda</p>
+        <div class="form-input-data">
+            <div class="col-md-6" style="text-align: left;">
+                <form>
+                    <div class="form-group2">
+                        <label class="teks-data">Nomor rekening</label>
+                        <select class="form-control">
+                            <option>@trx._rekening</option>
+                        </select>
+                    </div>
+                    <div class="form-group2">
+                        <label class="teks-data">Nomor halaman</label>
+                        <input type="number" class="form-control" placeholder="nomor halaman buku tabungan" @bind ="halamanbuku">
+                    </div>
+                    <div class="form-group2">
+                        <label class="teks-data">Nomor baris pada buku</label>
+                        <input type="number" class="form-control" placeholder="nomor baris buku tabungan" @bind ="barisbuku">
+                    </div>
+                    <div class="form-group2">
+                        <label class="teks-data">Saldo terakhir pada buku</label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text2">Rp</div>
+                            </div>
+                            <input type=@typesaldo class="form-control2" placeholder="saldo terakhir" @bind ="saldorekening">
+                            <i @onclick="visibility" class="material-icons visibility" style="margin: 5px;">@visibilityicon</i>
+                        </div>
+                    </div>
+                    <div class="btn-center">
+                        <button type="button" class="btn btn-danger3" @onclick="lanjut">Lanjut</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+@code {
+    [Parameter]
+    public EventCallback<string> OnClick { get; set; }
+
+    private string[] buku = { "rekening", "bisnis" };
+    private bool norekening = true;
+    private string jenisbuku = string.Empty;
+
+    private string barisbuku = "1";
+    private string halamanbuku = "1";
+    private string saldorekening = string.Empty;
+    private string typesaldo = "password";
+    private string visibilityicon = "visibility_off";
+    private string tanggal = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day).ToString("dd/MM/yy");
+    /*private int pengesahan;
+    private string[] sandi =
+        {
+        "DBT", "KRT", "KRT", "DBT", "DBT", "DBT", "KRT", "KRT", "DBT", "DBT", "KRT", "DBT", "KRT", "KRT", "KRT", "DBT", "DBT", "KRT", "DBT", "KRT",
+        "DBT", "KRT", "KRT", "DBT", "DBT", "DBT", "KRT", "KRT", "DBT", "DBT", "KRT", "DBT", "KRT", "KRT", "KRT", "DBT", "DBT", "KRT", "DBT", "KRT"
+        };
+    private string[] nominal =
+        { "100000", "50000", "500000", "100000", "50000",
+        "50000", "100000", "50000", "50000", "100000",
+        "50000", "100000", "100000", "50000", "500000",
+        "50000", "100000", "100000", "50000", "100000",
+        "100000", "50000", "500000", "100000", "50000",
+        "50000", "100000", "50000", "50000", "100000",
+        "50000", "100000", "100000", "50000", "500000",
+        "50000", "100000", "100000", "50000", "100000"
+    };*/
+    private string[] tipe;
+    private string[] sandi;
+    private string[] nominal;
+    private string[] pengesahan;
+
+    private async Task checkbuku()
+    {
+        if (trx._norek)
+        {
+            jenisbuku = buku[0];
+        }
+        else
+        {
+            jenisbuku = buku[1];
+        }
+    }
+
+    private void visibility()
+    {
+        if (typesaldo == "password")
+        {
+            typesaldo = "number";
+            visibilityicon = "visibility";
+        }
+        else
+        {
+            typesaldo = "password";
+            visibilityicon = "visibility_off";
+        }
+    }
+
+    private void lanjut()
+    {
+        //trx.clear();
+        trx.clearArray();
+        trx._norek = true;
+        checkbuku();
+        if (jenisbuku == "rekening")
+        {
+            if (saldorekening != string.Empty)
+            {
+                string path = "C:\\Trilogi Persada\\input passbook bni.csv";
+                string[] lines = System.IO.File.ReadAllLines(path);
+                tipe = new string[lines.Length];
+                sandi = new string[lines.Length];
+                nominal = new string[lines.Length];
+                pengesahan = new string[lines.Length];
+                for (int i = 0; i < lines.Length; i++)
+                {
+                    string[] column = lines[i].Split(";");
+                    for (int j = 0; j < column.Length; j++)
+                    {
+                        if (j == 0)
+                            tipe[i] = column[j];
+
+                        else if (j == 1)
+                            sandi[i] = column[j];
+
+                        else if (j == 2)
+                            nominal[i] = column[j];
+
+                        else if (j == 3)
+                            pengesahan[i] = column[j];
+                    }
+
+                }
+                //Random rnd = new Random();
+                //pengesahan = rnd.Next(100);
+                trx.setTransaksiPassbook(barisbuku, halamanbuku, tanggal, tipe, sandi, nominal, saldorekening, pengesahan); ;
+                OnClick.InvokeAsync("cetak");
+            }
+        }else if(jenisbuku=="bisnis")
+        {
+            lanjutBisnis();
+        }
+    }
+
+    private void lanjutBisnis()
+    {
+        trx.clear();
+        trx.clearArray();
+        if (saldorekening != string.Empty)
+        {
+            string path = "C:\\input passbook bni.csv";
+            string[] lines = System.IO.File.ReadAllLines(path);
+            tipe = new string[lines.Length*2];
+            sandi = new string[lines.Length*2];
+            nominal = new string[lines.Length*2];
+            pengesahan = new string[lines.Length*2];
+            int lineData = 0;
+            for (int i = 0; i < lines.Length; i++)
+            {
+                string[] column = lines[i].Split(";");
+                for (int j = 0; j < column.Length; j++)
+                {
+                    if (j == 0)
+                        tipe[lineData] = column[j];
+
+                    else if (j == 1)
+                        sandi[lineData] = column[j];
+
+                    else if (j == 2)
+                        nominal[lineData] = column[j];
+
+                    else if (j == 3)
+                        pengesahan[lineData] = column[j];
+                }
+                tipe[lineData + 1] = "\t";
+                sandi[lineData + 1] = "\t";
+                nominal[lineData + 1] = "\t";
+                pengesahan[lineData + 1] = "\t";
+                lineData += 2;
+            }
+            //Random rnd = new Random();
+            //pengesahan = rnd.Next(100);
+            trx.setTransaksiPassbook(barisbuku, halamanbuku, tanggal, tipe, sandi, nominal, saldorekening, pengesahan); ;
+            OnClick.InvokeAsync("cetak");
+        }
+
+    }
+}

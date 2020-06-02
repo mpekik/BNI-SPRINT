@@ -1,0 +1,61 @@
+﻿@page "/"
+
+@using Integrasi_HTML.Component.Index
+@using Integrasi_HTML.Data
+
+@inject transaksi trx
+
+    <div class="wrapper">
+        <div class="main-panel">
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="bni-logo" src="../assets/img/bni-white.png"><br><br><br>
+                            <div class="text-white">
+                                <h2 class="teks-sidebar font-qs-bold">Cetak Transaksi Anda</h2><br>
+                            </div>
+                            <img class="nav-vektor" src="../assets/img/vektor-a.png">
+                        </div>
+                        
+                            @switch (message)
+                            {
+                                case "login":
+                                    {
+                                        <LoginComponent OnClick="ClickHandler"></LoginComponent>
+                                        break;
+                                    }
+
+                                case "pilihmenu":
+                                    {
+                                        <PilihMenuComponent></PilihMenuComponent>
+                                        break;
+                                    }
+
+                                default:
+                                    {
+                                        <HomeComponent OnClick="ClickHandler"></HomeComponent>
+                                        break;
+                                    }
+                            }
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@code{
+    private string message = string.Empty;
+    void ClickHandler(string newMessage)
+    {
+        message = newMessage;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        trx.clear();
+        trx.clearArray();
+    }
+}

@@ -1,0 +1,101 @@
+﻿@using Microsoft.AspNetCore.Components
+@using Integrasi_HTML.Data  
+@using System.Drawing
+@using System.Drawing.Printing
+
+@inject transaksi trx
+@inject printer print
+
+<div class="col-md-8" style="margin-top: 6.5%;">
+    <h2 id="" class="teks-hello2">Hello, <b class="nama-pelanggan">@trx._nasabah</b></h2>
+    <p id="" class="teks-desc4">Anda akan mencetak transaksi</p>
+    <p id="" class="periode-terpilih">Periode bulan lalu</p>
+    <p id="" class="waktu-periode">@startdate s/d @enddate</p>
+    <div id="" style="text-align: center; margin-top: 10%;">
+        <p><button type="button" class="btn btn-danger2" id="myBtn" @onclick="CheckVisible">Ya</button></p>
+        <p><button type="button" class="btn btn-danger-no" @onclick="@(()=>OnClick.InvokeAsync("default"))">Tidak</button></p>
+    </div>
+</div>
+
+@if (isVisible)
+{
+    <div class="modal" id="myModal" aria-hidden="true">
+        <div class="modal-dialog2 modal-dialog-centered" role="document" style="top: -2rem;">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="../../assets/img/loading.gif" style="width: 30%;">
+                    <p>Mohon tunggu,</p>
+                    <p style="margin-top: -1rem;">Histori transaksi sedang dicetak...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private bool isVisible = false;
+    private string startdate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1).AddMonths(-1).ToString("yyyy-MM-dd");
+    private string enddate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1).AddDays(-1).ToString("yyyyy-MM-dd");
+    private string hour = DateTime.Now.ToString("HH:mm:ss");
+    /*private string[] uraian =
+    {
+        "TRANSFER KE PT TOKOPEDIA",
+        "TRF/PAY/TOP-UP ECHANNEL KARTU 5269212590018178 PREEPS 1111111JKT DIRECT EPRS 75461300008065949",
+        "TRANSFER KE PT TOKOPEDIA",
+        "TRANSFER DARI Sdr. ANDREAS TANIZAR PURBA",
+        "TARIK TUNAI KARTU 5269212590018178 JAKARTA 119820-KC BEKASI"
+    };
+    private string[] tipe = { "D", "D", "D", "K", "D" };
+    private string[] nominal = { "102000", "50000", "129000", "130000", "400000" };*/
+    private string[] uraian;
+    private string[] tipe;
+    private string[] nominal;
+    private string saldo = "1000000";
+
+
+    private async Task CheckVisible()
+    {
+        isVisible = !isVisible;
+        trx.clearArray();
+        string path = "C:\\input histori a4.csv";
+        string[] lines = System.IO.File.ReadAllLines(path);
+        uraian = new string[lines.Length];
+        tipe = new string[lines.Length];
+        nominal = new string[lines.Length];
+        for (int i = 0; i < lines.Length; i++)
+        {
+            string[] column = lines[i].Split(";");
+            for (int j = 0; j < column.Length; j++)
+            {
+                if (j == 0)
+                {
+                    uraian[i] = column[j];
+                }
+                else if (j == 1)
+                {
+                    tipe[i] = column[j];
+                }
+                else if (j == 2)
+                {
+                    nominal[i] = column[j];
+                }
+            }
+        }
+        trx.setTransaksiHistori(uraian, tipe, nominal, saldo, enddate, hour);
+        Random rnd = new Random();
+        int next = rnd.Next(0, 1);
+        if(next == 0)
+        {
+            await print.HistoriPrint(trx);
+            await Task.Delay(10000);
+            OnClick.InvokeAsync("transaksiberhasil");
+        }
+        else
+        {
+            OnClick.InvokeAsync("transaksigagal");
+        }
+    }
+
+    [Parameter]
+    public EventCallback<string> OnClick { get; set; }
+}

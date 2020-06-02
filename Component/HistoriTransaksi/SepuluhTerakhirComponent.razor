@@ -1,0 +1,103 @@
+﻿@using Microsoft.AspNetCore.Components
+@using Integrasi_HTML.Data
+
+@inject transaksi trx
+@inject printer print
+
+<div class="col-md-8" style="margin-top: 6.5%;">
+    <h2 id="" class="teks-hello2">Hello, <b class="nama-pelanggan">@trx._nasabah</b></h2>
+    <p id="" class="teks-desc4">Anda akan mencetak transaksi</p>
+    <p id="" class="periode-terpilih">10 transaksi terakhir</p>
+    <p id="" class="waktu-periode">sampai tanggal @enddate</p>
+    <div id="" style="text-align: center; margin-top: 10%;">
+        <p><button type="button" class="btn btn-danger2" id="myBtn" @onclick="CheckVisible">Ya</button></p>
+        <p><button type="button" class="btn btn-danger-no" @onclick="@(()=>OnClick.InvokeAsync("default"))">Tidak</button></p>
+    </div>
+</div>
+
+@if (isVisible)
+{
+    <div class="modal" id="myModal" aria-hidden="true">
+        <div class="modal-dialog2 modal-dialog-centered" role="document" style="top: -2rem;">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="../../assets/img/loading.gif" style="width: 30%;">
+                    <p>Mohon tunggu,</p>
+                    <p style="margin-top: -1rem;">Histori transaksi sedang dicetak...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private bool isVisible = false;
+    private bool cetak = true;
+    private string enddate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day).ToString("yyyy-MM-dd");
+    /*private string[] tanggal =
+    {
+        "10-05 -2020", "11-05-2020", "12-05-2020", "13-05-2020", "14-05-2020",
+        "15-05-2020", "16-05-2020", "17-05-2020", "18-05-2020", "19-05-2020",
+        "20-05-2020", "21-05-2020", "22-05-2020", "23-05-2020", "24-05-2020",
+        "25-05-2020", "26-05-2020", "27-05-2020", "28-05-2020", "29-05-2020"
+    };
+    private string[] keterangan =
+    {
+        "DEBET", "DEBET", "KREDIT", "KREDIT", "DEBET", "KREDIT", "DEBET", "KREDIT", "KREDIT", "KREDIT",
+        "DEBET", "DEBET", "KREDIT", "KREDIT", "DEBET", "DEBET", "DEBET", "DEBET", "KREDIT", "KREDIT"
+    };
+    private string[] kode =
+    {
+        "DBT", "DBT", "KRT", "KRT", "DBT", "KRT", "DBT","KRT", "KRT", "KRT",
+        "DBT", "DBT", "KRT", "KRT", "DBT", "DBT", "DBT", "DBT", "KRT", "KRT"
+    };*/
+    private string[] tanggal;
+    private string[] keterangan;
+    private string[] kode;
+    private string saldo = "1000000";
+
+    private async Task CheckVisible()
+    {
+        isVisible = !isVisible;
+        string path = "C:\\Trilogi Persada\\input thermal.csv";
+        string[] lines = System.IO.File.ReadAllLines(path);
+        tanggal = new string[lines.Length];
+        keterangan = new string[lines.Length];
+        kode = new string[lines.Length];
+        for(int i = 0; i < lines.Length; i++)
+        {
+            string[] column = lines[i].Split(";");
+            for(int j = 0; j < column.Length; j++)
+            {
+                if(j == 0)
+                {
+                    tanggal[i] = column[j];
+                }
+                else if(j == 1)
+                {
+                    keterangan[i] = column[j];
+                }
+                else if(j == 2)
+                {
+                    kode[i] = column[j];
+                }
+            }
+        }
+        trx.setPrintThermal(tanggal, keterangan, kode, saldo);
+        //Random rnd = new Random();
+        //int next = rnd.Next(0, 1);
+        if (cetak)
+        {
+            await print.ThermalPrint(trx);
+            await Task.Delay(10000);
+            OnClick.InvokeAsync("transaksiberhasil");
+        }
+        else
+        {
+            OnClick.InvokeAsync("transaksigagal");
+        }
+    }
+
+    [Parameter]
+    public EventCallback<string> OnClick { get; set; }
+}

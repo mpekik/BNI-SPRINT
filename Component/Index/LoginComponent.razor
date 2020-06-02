@@ -1,0 +1,118 @@
+﻿@using Microsoft.AspNetCore.Components
+@using Integrasi_HTML.Data
+
+@inject transaksi trx 
+
+
+
+    <div class="col-md-8" style="margin-top: 6.5%; text-align: center;">
+        @if (kartuvalid)
+        {
+            <h2 id="" class="teks-hello2">Masukan PIN ATM Anda</h2>
+            
+            if (!pinvalid)
+            {
+                <p id="" class="error-pin">PIN yang anda masukkan salah. Kesempatan untuk mencoba <b>@trylimit.ToString()x</b> lagi</p>
+                <img class="img-pin" src="../../assets/img/input-pin.png" @onclick="pinInput">
+            }
+            else
+            {
+                <img class="img-pin" src="../../assets/img/input-pin.png" @onclick="pinInput">
+            }
+            /*if (!pinError)
+            {
+                <p id="" class="teks-desc2">Tekan "ENTER" jika selesai memasukkan PIN</p>
+                <p id="input-pin"><input type="password" maxlength="6" autocomplete="off" class="input-pin" name="pin" placeholder="******" @bind="pin" autofocus></p>
+                <img class="img-pin" src="../../assets/img/input-pin.png" @onclick="pinInput">
+            }
+            else
+            {
+                <p id="" class="error-pin">PIN yang anda masukkan salah. Kesempatan untuk mencoba <b>@trylimit.ToString()x</b> lagi</p>
+                <p id="input-pin"><input type="password" maxlength="6" autocomplete="off" class="input-pin" name="pin" placeholder="******" @bind="pin" autofocus></p>
+                <img class="img-pin" src="../../assets/img/input-pin.png" @onclick="pinInput">
+            }*/
+        }
+        else
+        {
+            <h2 class="teks-hello2">Masukan Kartu ATM Anda</h2>
+            <img class="img-edc" src="../../assets/img/edc.png" @onclick="cardInput">
+        }
+    </div>
+
+        @code {
+            private bool kartuvalid = false;
+            private bool pinvalid = true;
+            private string pin;
+            private string[] validasi = { "valid", "invalid" };
+            private int trylimit = 3;
+            //private string pinNasabah = "123456";
+            private string namaNasabah = "Andreas Lamen";
+            private string rekeningNasabah = "1234567890";
+
+
+
+            [Parameter]
+            public EventCallback<string> OnClick { get; set; }
+
+            private void cardInput()
+            {
+                Random rnd = new Random();
+                int next = rnd.Next(0, 1);
+                checkcardvalid(next);
+            }
+
+            private void checkcardvalid(int number)
+            {
+                if(number == 0)
+                {
+                    string valid = validasi[0];
+                    kartuvalid = true;
+                }
+                else
+                {
+                    string valid = validasi[1];
+                }
+            }
+
+            private void pinInput()
+            {
+                Random rnd = new Random();
+                int next = rnd.Next(0, 1);
+                //int next = 1;
+                checkpinvalid(next);
+                /*if (pin != pinNasabah)
+                {
+                    pinError = true;
+                    trylimit -= 1;
+                    if(trylimit == 0)
+                    {
+                        OnClick.InvokeAsync("default");
+                    }
+                }
+                else
+                {
+                    OnClick.InvokeAsync("pilihmenu");
+                    trx.setNasabah(namaNasabah, rekeningNasabah);
+                }*/
+            }
+
+            private void checkpinvalid(int next)
+            {
+                if(next == 0)
+                {
+                    OnClick.InvokeAsync("pilihmenu");
+                    trx.setNasabah(namaNasabah, rekeningNasabah);
+                }
+                else
+                {
+                    pinvalid = false;
+                    trylimit -= 1;
+                    if (trylimit == 0)
+                    {
+                        OnClick.InvokeAsync("default");
+                    }
+                }
+            }
+
+
+        }

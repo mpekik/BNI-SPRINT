@@ -1,0 +1,214 @@
+﻿@using Microsoft.AspNetCore.Components
+@using Integrasi_HTML.Data
+@using System.Drawing
+@using System.Drawing.Printing
+
+@inject printer print
+@inject transaksi trx
+
+<div class="col-md-8" style="margin-top: 7%; text-align: center;">
+    <h2 id="" class="teks-hello2">Masukkan buku Anda pada printer<br>lalu tekan tombol<b> CETAK</b></h2>
+    <p id="" class="teks-desc4">Pastikan buku yang Anda masukkan adalah buku tabungan<br>yang ingin dicetak mutasinya</p>
+    <img src="../../assets/img/print bni.png" style="width: 50%; margin-top: 5%;">
+    <div id="" style="text-align: center; margin-top: 5%;">
+        <p><button type="button" class="btn btn-danger2" id="myBtn" @onclick="CheckVisible">Cetak</button></p>
+        <p><button type="button" class="btn btn-danger-no" style="margin-top: 0.1rem;" @onclick="@(()=>OnClick.InvokeAsync("default"))">Batal</button></p>
+    </div>
+</div>
+
+@if (isVisible)
+{
+    <div class="modal" id="myModal" aria-hidden="true">
+        <div class="modal-dialog2 modal-dialog-centered" role="document" style="top: -2rem;">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="../assets/img/loading.gif" style="width: 30%;">
+                    <p>Mohon tunggu,</p>
+                    <p style="margin-top: -1rem;">Buku Anda sedang dicetak...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@if (isBaris)
+{
+    <div class="modal" id="myModal" aria-hidden="true">
+        <div class="modal-dialog2 modal-dialog-centered" role="document" style="top: -2rem;">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="../assets/img/loading.gif" style="width: 30%;">
+                    <p style="margin-top: -1rem;">Silahkan ganti ke halaman selanjutnya...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private bool isVisible = false;
+    private bool halamanbuku = false;
+    private bool isBaris = false;
+    private bool cetak = true;
+    private string[] buku = { "rekening", "bisnis" };
+    private bool norekening = true;
+    private string jenisbuku = string.Empty;
+    private int printhalaman = 1;
+    private int maxbaris = 40;
+    private int maxhalaman = 8;
+
+    private async Task checkbuku()
+    {
+        if (trx._norek)
+        {
+            jenisbuku = buku[0];
+        }
+        else
+        {
+            jenisbuku = buku[1];
+        }
+    }
+
+    private async Task CheckVisible()
+    {
+
+        isVisible = !isVisible;
+        int baris = int.Parse(trx._baris);
+        baris -= 1;
+        int totalbaris = baris + trx._sandi.Length;
+        int halaman = int.Parse(trx._halaman);
+        if (totalbaris > maxbaris)
+        {
+            int n = totalbaris / 40;
+            string[] temptipe = null;
+            string[] tempsandi = null;
+            string[] tempnominal = null;
+            string[] temppengesahan = null;
+            int startindex = 0;
+            //int sisabaris = totalbaris - 40;
+
+            if (totalbaris % 40 > 0)
+            {
+                n += 1;
+            }
+            if (halaman + n > maxhalaman)
+            {
+                cetak = false;
+                OnClick.InvokeAsync("bukupenuh");
+                return;
+            }
+            temptipe = new string[trx._tipe.Length];
+            tempsandi = new string[trx._sandi.Length];
+            tempnominal = new string[trx._nominal.Length];
+            temppengesahan = new string[trx._pengesahan.Length];
+            Array.Copy(trx._tipe, startindex, temptipe, 0, trx._tipe.Length);
+            Array.Copy(trx._sandi, 0, tempsandi, 0, trx._sandi.Length);
+            Array.Copy(trx._nominal, 0, tempnominal, 0, trx._nominal.Length);
+            Array.Copy(trx._pengesahan, 0, temppengesahan, 0, trx._nominal.Length);
+            for (int i = 0; i < n; i++)
+            {
+                string tanggal = trx._startdate;
+                string saldo = trx._saldo;
+                string[] tipe = null;
+                string[] sandi = null;
+                string[] nominal = null;
+                string[] pengesahan = null;
+                if(i == 0)
+                {
+                    trx.clearArray();
+                    //baris -= 1;
+                    tipe = new string[40 - baris];
+                    sandi = new string[40 - baris];
+                    nominal = new string[40 - baris];
+                    pengesahan = new string[40 - baris];
+                    Array.Copy(temptipe, startindex, tipe, 0, 40 - baris);
+                    Array.Copy(tempsandi, startindex, sandi, 0, 40 - baris);
+                    Array.Copy(tempnominal, startindex, nominal, 0, 40 - baris);
+                    Array.Copy(temppengesahan, startindex, pengesahan, 0, 40 - baris);
+                    baris += 1;
+                    trx.setTransaksiPassbook(baris.ToString(), halaman.ToString(), tanggal, tipe, sandi, nominal, saldo, pengesahan);
+                    baris -= 1;
+                    startindex = 40 - baris;
+                    await print.PassbookPrintRekening(trx);
+                    await Task.Delay(5000);
+                }
+                else
+                {
+                    if(i == n - 1)
+                    {
+                        trx.clearArray();
+                        int sisabaris = tempsandi.Length - startindex;
+                        baris = 1;
+                        tipe = new string[sisabaris];
+                        sandi = new string[sisabaris];
+                        nominal = new string[sisabaris];
+                        pengesahan = new string[sisabaris];
+                        Array.Copy(temptipe, startindex, tipe, 0, sisabaris);
+                        Array.Copy(tempsandi, startindex, sandi, 0, sisabaris);
+                        Array.Copy(tempnominal, startindex, nominal, 0, sisabaris);
+                        Array.Copy(temppengesahan, startindex, pengesahan, 0, sisabaris);
+                        trx.setTransaksiPassbook(baris.ToString(), halaman.ToString(), tanggal, tipe, sandi, nominal, saldo, pengesahan);
+                        await print.PassbookPrintRekening(trx);
+                        await Task.Delay(5000);
+                        OnClick.InvokeAsync("cetakberhasil");
+                    }
+                    else
+                    {
+                        trx.clearArray();
+                        baris = 1;
+                        tipe = new string[40];
+                        sandi = new string[40];
+                        nominal = new string[40];
+                        pengesahan = new string[40];
+                        Array.Copy(temptipe, startindex, tipe, 0, 40);
+                        Array.Copy(tempsandi, startindex, sandi, 0, 40);
+                        Array.Copy(tempnominal, startindex, nominal, 0, 40);
+                        Array.Copy(temppengesahan, startindex, pengesahan, 0, 40);
+                        trx.setTransaksiPassbook(baris.ToString(), halaman.ToString(), tanggal, tipe, sandi, nominal, saldo, pengesahan);
+                        startindex = startindex + 40;
+                        await print.PassbookPrintRekening(trx);
+                    }
+                }
+                isVisible = false;
+                StateHasChanged();
+                CheckBaris();
+
+                //isVisible = !isVisible;
+                //StateHasChanged();
+                //await Task.Delay(10000);
+            }
+        }
+        if (cetak)
+        {
+            checkbuku();
+            if (totalbaris < maxbaris)
+            {
+                if (jenisbuku == "rekening")
+                {
+                    await print.PassbookPrintRekening(trx);
+                }
+                else
+                {
+                    await print.PassbookPrintBisnis(trx);
+                }
+            }
+            await Task.Delay(10000);
+            OnClick.InvokeAsync("cetakberhasil");
+        }
+        else
+        {
+            await Task.Delay(10000);
+            OnClick.InvokeAsync("cetakgagal");
+        }
+    }
+
+    private async Task CheckBaris()
+    {
+        isBaris = !isBaris;
+        StateHasChanged();
+        //await Task.Delay(2000);
+    }
+
+    [Parameter]
+    public EventCallback<string> OnClick { get; set; }
+}

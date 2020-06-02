@@ -1,0 +1,61 @@
+﻿@page "/bukutabungan"
+
+@using Integrasi_HTML.Component.BukuTabungan
+
+    <div class="wrapper">
+        <div class="main-panel">
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="bni-logo" src="../assets/img/bni-white.png"><br><br><br>
+                            <div class="text-white">
+                                <h2 class="teks-sidebar font-qs-bold">Cetak Transaksi Anda</h2><br>
+                            </div>
+                            <img class="nav-vektor3" src="../assets/img/tabungan-bni.png">
+                        </div>
+                        @switch (message)
+                        {
+                            case "cetak":
+                                {
+                                    <CetakComponent OnClick="ClickHandler"></CetakComponent>
+                                    break;
+                                }
+
+                            case "cetakberhasil":
+                                {
+                                    <CetakBerhasilComponent></CetakBerhasilComponent>
+                                    break;
+                                }
+
+                            case "cetakgagal":
+                                {
+                                    <CetakGagalComponent></CetakGagalComponent>
+                                    break;
+                                }
+
+                            case "bukupenuh":
+                                {
+                                    <BukuPenuh></BukuPenuh>
+                                    break;
+                                }
+
+                            default:
+                                {
+                                    <DataComponent OnClick="ClickHandler"></DataComponent>
+                                    break;
+                                }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@code {
+    private string message = string.Empty;
+                            void ClickHandler(string newMessage)
+                            {
+                                message = newMessage;
+                            }
+                        }

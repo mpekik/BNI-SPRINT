@@ -1,0 +1,17 @@
+﻿@using Microsoft.AspNetCore.Components
+
+@inject NavigationManager navman
+
+    <div class="col-md-8" style="margin-top: 15%; text-align: center;">
+        <img src="../../assets/img/icn-berhasil.png" style="width: 15%;"><br><br>
+        <p class="teks-desc6">Buku <b style="color: rgb(0, 211, 95);">Berhasil</b> dicetak</p>
+        <p class="teks-desc6">"Silakan Ambil Buku Tabungan Anda"</p>
+    </div>
+
+@code {      
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(5000);
+        navman.NavigateTo("/");
+    }
+}

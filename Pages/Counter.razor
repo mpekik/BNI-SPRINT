@@ -1,0 +1,18 @@
+﻿@page "/counter"
+@using Integrasi_HTML.Data
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        printer print = new printer();
+        //currentCount++;
+        //string[] strResult = print.stringSplit("TRF/PAY/TOP-UP ECHANNEL KARTU 5269212590018178 PREEPS 1111111JKT DIRECT EPRS 75461300008065949");
+    }
+}
