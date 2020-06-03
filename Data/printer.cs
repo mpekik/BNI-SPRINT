@@ -17,7 +17,7 @@ namespace Integrasi_HTML.Data
         Font font = new Font("Calibri", 8, FontStyle.Regular);
         public bool isEnd = false;
         private bool isPrinting = false;
-        public async Task PassbookPrintRekening(transaksi trx)
+        public string PassbookPrintRekening(transaksi trx)
         {
             printDoc = new PrintDocument();
             _trx = trx;
@@ -27,6 +27,7 @@ namespace Integrasi_HTML.Data
             printDoc.EndPrint += new PrintEventHandler(EndPrintEH);
             printDoc.PrintPage += new PrintPageEventHandler(PassbookPrintPageRekening);
             printDoc.Print();
+            return _trx._saldo;
         }
 
         public void BeginPrintEH(object sender, PrintEventArgs e)
@@ -110,8 +111,12 @@ namespace Integrasi_HTML.Data
                         ypoint = ypoint + (12 * 5);
                     }
                 }
+            if (!e.HasMorePages)
+                isEnd = true;
+
+            _trx._saldo = saldo.ToString();
         }
-        public async Task PassbookPrintBisnis(transaksi trx)
+        public String PassbookPrintBisnis(transaksi trx)
         {
             printDoc = new PrintDocument();
             _trx = trx;
@@ -121,6 +126,7 @@ namespace Integrasi_HTML.Data
             printDoc.EndPrint += new PrintEventHandler(EndPrintEH);
             printDoc.PrintPage += new PrintPageEventHandler(PassbookPrintPageBisnis);
             printDoc.Print();
+            return _trx._saldo;
         }
 
         public void PassbookPrintPageBisnis(object sender, PrintPageEventArgs e)
@@ -193,6 +199,8 @@ namespace Integrasi_HTML.Data
             }
             if (!e.HasMorePages)
                 isEnd = true;
+
+            _trx._saldo = saldo.ToString();
         }
         public async Task HistoriPrint(transaksi trx)
         {
@@ -267,6 +275,47 @@ namespace Integrasi_HTML.Data
                     saldo += nominal;
                 }
             }
+        }
+
+        public void BukuPenuhPage(object sender, PrintPageEventArgs e)
+        {
+            StringFormat formatLeft = new StringFormat(StringFormatFlags.NoClip);
+            StringFormat formatCenter = new StringFormat(formatLeft);
+            formatCenter.Alignment = StringAlignment.Center;
+
+            string logo = "C:\\bniThermal.bmp";
+            SolidBrush blackBrush = new SolidBrush(Color.Black);
+            Graphics g = e.Graphics;
+            font = new Font("Arial", 10, FontStyle.Regular);
+            Image img = Image.FromFile(logo);
+
+            g.DrawImage(img, (e.PageBounds.Width - img.Width) / 2, 0, img.Width, img.Height);
+            //g.DrawString("Cetak Thermal", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(5, 10));
+
+            string joint = "No Rekening : " + _trx._rekening;
+            g.DrawString(joint, font, blackBrush, new Point(5, 50));
+
+            joint = "Nama Nasabah : " + _trx._nasabah;
+            g.DrawString(joint, font, blackBrush, new Point(5, 100));
+            int saldo = int.Parse(_trx._saldo);
+            joint = "Saldo Terakhir : Rp " + saldo.ToString("N0");
+            g.DrawString(joint, font, blackBrush, new Point(5, 150));
+            joint = "Harap Menghubungi Costumer Service";
+            g.DrawString(joint, font, blackBrush, new Point(5, 200), formatCenter);
+            joint = "Untuk Melakukan Penggantian Buku";
+            g.DrawString(joint, font, blackBrush, new Point(5, 150), formatCenter);
+            joint = "Dengan Menyertakan Struk Ini";
+            g.DrawString(joint, font, blackBrush, new Point(5, 150), formatCenter);
+        }
+        public async Task BukuPenuhPrint(transaksi trx)
+        {
+            printDoc = new PrintDocument();
+            _trx = trx;
+            printDoc.PrinterSettings.PrinterName = "BT-T080(U) 1";
+            printDoc.BeginPrint += new PrintEventHandler(BeginPrintEH);
+            printDoc.EndPrint += new PrintEventHandler(EndPrintEH);
+            printDoc.PrintPage += new PrintPageEventHandler(BukuPenuhPage);
+            printDoc.Print();
         }
         public string[] stringSplit(string strtext)
         {

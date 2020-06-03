@@ -1,6 +1,11 @@
 ﻿@using Microsoft.AspNetCore.Components
+@using Integrasi_HTML.Data
+@using System.IO.Ports
 
 @inject NavigationManager navman
+@inject transaksi trx
+@inject printer print
+@inject EDC edc
 
 <div class="col-md-8" style="margin-top: 15%; text-align: center;">
     <img src="../../assets/img/icn-gagal.png" style="width: 15%;"><br><br>
@@ -11,6 +16,24 @@
 @code {
     protected override async Task OnInitializedAsync()
     {
+        await print.BukuPenuhPrint(trx);
+        edc.Clear();
+        edc.serialPort = new SerialPort();
+        edc.serialPort.PortName = "COM6";
+        edc.serialPort.DataReceived += new SerialDataReceivedEventHandler(edc.port_DataReceived);
+        await Task.Run(() => edc.SendCommand(edc.serialPort, "13"));
+        do
+        {
+            await Task.Delay(500);
+            if (edc.statusCode == "00")
+            {
+                break;
+            }
+            else if (edc.statusCode == "55" || edc.statusCode == "TO")
+            {
+                break;
+            }
+        } while (edc.statusCode == string.Empty);
         await Task.Delay(20000);
         navman.NavigateTo("/");
     }

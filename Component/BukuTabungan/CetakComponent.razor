@@ -90,6 +90,7 @@
         int totalbaris = baris + trx._sandi.Length;
         int totaldata = trx._sandi.Length;
         int halaman = int.Parse(trx._halaman);
+        string saldo = trx._saldo;
         if (totalbaris > maxbaris)
         {
             int n = totalbaris / 40;
@@ -116,7 +117,6 @@
             for (int i = 0; i < n; i++)
             {
                 string tanggal = trx._startdate;
-                string saldo = trx._saldo;
                 string[] tipe = null;
                 string[] sandi = null;
                 string[] nominal = null;
@@ -138,7 +138,7 @@
                     trx.setTransaksiPassbook(baris.ToString(), halaman.ToString(), tanggal, tipe, sandi, nominal, saldo, pengesahan);
                     baris -= 1;
                     startindex = 40 - baris;
-                    await print.PassbookPrintRekening(trx);
+                    saldo = await Task.Run(()=> print.PassbookPrintRekening(trx));
                     await Task.Delay(20000);
                 }
                 else
@@ -157,9 +157,10 @@
                         Array.Copy(tempnominal, startindex, nominal, 0, sisabaris);
                         Array.Copy(temppengesahan, startindex, pengesahan, 0, sisabaris);
                         trx.setTransaksiPassbook(baris.ToString(), halaman.ToString(), tanggal, tipe, sandi, nominal, saldo, pengesahan);
-                        await print.PassbookPrintRekening(trx);
+                        saldo = await Task.Run(()=>print.PassbookPrintRekening(trx));
                         await Task.Delay(20000);
                         OnClick.InvokeAsync("cetakberhasil");
+                        break;
                     }
                     else
                     {
@@ -175,7 +176,7 @@
                         Array.Copy(temppengesahan, startindex, pengesahan, 0, 40);
                         trx.setTransaksiPassbook(baris.ToString(), halaman.ToString(), tanggal, tipe, sandi, nominal, saldo, pengesahan);
                         startindex = startindex + 40;
-                        await print.PassbookPrintRekening(trx);
+                        saldo = await Task.Run(()=>print.PassbookPrintRekening(trx));
                         await Task.Delay(30000);
                     }
                 }
@@ -192,7 +193,7 @@
                 {
                     cetak = false;
                     OnClick.InvokeAsync("bukupenuh");
-                    return;
+                    break;
                 }
                 else
                 {
@@ -216,11 +217,11 @@
             {
                 if (jenisbuku == "rekening")
                 {
-                    await print.PassbookPrintRekening(trx);
+                    saldo = await Task.Run(()=>print.PassbookPrintRekening(trx));
                 }
                 else
                 {
-                    await print.PassbookPrintBisnis(trx);
+                    saldo = await Task.Run(()=> print.PassbookPrintBisnis(trx));
                 }
             }
             await Task.Delay(10000);
