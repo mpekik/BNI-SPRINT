@@ -5,6 +5,12 @@
     <RootNamespace>Integrasi_HTML</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
   <ItemGroup>
     <COMReference Include="{d37e2a3e-8545-3a39-9f4f-31827c9124ab}">
       <Guid>d37e2a3e-8545-3a39-9f4f-31827c9124ab</Guid>
@@ -17,6 +23,12 @@
   <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
     <PackageReference Include="System.IO.Ports" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Printing">
+      <HintPath>System.Printing.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

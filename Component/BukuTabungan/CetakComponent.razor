@@ -1,11 +1,12 @@
 ﻿@using Microsoft.AspNetCore.Components
 @using Integrasi_HTML.Data
+@using System.Threading
 @using System.Drawing
 @using System.Drawing.Printing
 
 @inject printer print
 @inject transaksi trx
-
+    
 <div class="col-md-8" style="margin-top: 7%; text-align: center;">
     <h2 id="" class="teks-hello2">Masukkan buku Anda pada printer<br>lalu tekan tombol<b> CETAK</b></h2>
     <p id="" class="teks-desc4">Pastikan buku yang Anda masukkan adalah buku tabungan<br>yang ingin dicetak mutasinya</p>
@@ -39,6 +40,7 @@
                 <div class="modal-body">
                     <img src="../assets/img/loading.gif" style="width: 30%;">
                     <p style="margin-top: -1rem;">Silahkan ganti ke halaman selanjutnya...</p>
+                    <p><button type="button" class="btn btn-danger2" id="myBtn" @onclick="tes">Cetak</button></p>
                 </div>
             </div>
         </div>
@@ -46,6 +48,8 @@
 }
 
 @code {
+
+
     private bool isVisible = false;
     private bool halamanbuku = false;
     private bool isBaris = false;
@@ -56,6 +60,8 @@
     private int printhalaman = 1;
     private int maxbaris = 40;
     private int maxhalaman = 8;
+
+    public AutoResetEvent mre = new AutoResetEvent(false);
 
     private async Task checkbuku()
     {
@@ -69,13 +75,20 @@
         }
     }
 
+    private void tes()
+    {
+        isVisible = true;
+        isBaris = false;
+    }
+
     private async Task CheckVisible()
     {
-
+        string strComputerName = Environment.MachineName.ToString();
         isVisible = !isVisible;
         int baris = int.Parse(trx._baris);
         baris -= 1;
         int totalbaris = baris + trx._sandi.Length;
+        int totaldata = trx._sandi.Length;
         int halaman = int.Parse(trx._halaman);
         if (totalbaris > maxbaris)
         {
@@ -91,12 +104,7 @@
             {
                 n += 1;
             }
-            if (halaman + n > maxhalaman)
-            {
-                cetak = false;
-                OnClick.InvokeAsync("bukupenuh");
-                return;
-            }
+
             temptipe = new string[trx._tipe.Length];
             tempsandi = new string[trx._sandi.Length];
             tempnominal = new string[trx._nominal.Length];
@@ -113,7 +121,8 @@
                 string[] sandi = null;
                 string[] nominal = null;
                 string[] pengesahan = null;
-                if(i == 0)
+
+                if (i == 0)
                 {
                     trx.clearArray();
                     //baris -= 1;
@@ -130,11 +139,11 @@
                     baris -= 1;
                     startindex = 40 - baris;
                     await print.PassbookPrintRekening(trx);
-                    await Task.Delay(5000);
+                    await Task.Delay(20000);
                 }
                 else
                 {
-                    if(i == n - 1)
+                    if (i == n - 1)
                     {
                         trx.clearArray();
                         int sisabaris = tempsandi.Length - startindex;
@@ -149,7 +158,7 @@
                         Array.Copy(temppengesahan, startindex, pengesahan, 0, sisabaris);
                         trx.setTransaksiPassbook(baris.ToString(), halaman.ToString(), tanggal, tipe, sandi, nominal, saldo, pengesahan);
                         await print.PassbookPrintRekening(trx);
-                        await Task.Delay(5000);
+                        await Task.Delay(20000);
                         OnClick.InvokeAsync("cetakberhasil");
                     }
                     else
@@ -167,11 +176,33 @@
                         trx.setTransaksiPassbook(baris.ToString(), halaman.ToString(), tanggal, tipe, sandi, nominal, saldo, pengesahan);
                         startindex = startindex + 40;
                         await print.PassbookPrintRekening(trx);
+                        await Task.Delay(30000);
                     }
                 }
+
+                do
+                {
+                    await Task.Delay(1000);
+                } while (!print.isEnd);
+
+                halaman += 1;
                 isVisible = false;
-                StateHasChanged();
-                CheckBaris();
+                //StateHasChanged();
+                if (halaman > maxhalaman)
+                {
+                    cetak = false;
+                    OnClick.InvokeAsync("bukupenuh");
+                    return;
+                }
+                else
+                {
+                    isBaris = !isBaris;
+                    StateHasChanged();
+                    do
+                    {
+                        await Task.Delay(100);
+                    } while (isBaris);
+                }
 
                 //isVisible = !isVisible;
                 //StateHasChanged();
@@ -202,10 +233,24 @@
         }
     }
 
-    private async Task CheckBaris()
+    private async Task CheckBaris(int halaman)
     {
         isBaris = !isBaris;
         StateHasChanged();
+        do
+        {
+            await Task.Delay(500);
+            if (halaman > maxhalaman)
+            {
+                do
+                {
+                    await Task.Delay(500);
+                } while (!print.isEnd);
+                cetak = false;
+                OnClick.InvokeAsync("bukupenuh");
+                return;
+            }
+        } while (isBaris);
         //await Task.Delay(2000);
     }
 

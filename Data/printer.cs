@@ -15,7 +15,8 @@ namespace Integrasi_HTML.Data
         PrintDocument printDoc = new PrintDocument();   
         transaksi _trx = new transaksi();
         Font font = new Font("Calibri", 8, FontStyle.Regular);
-
+        public bool isEnd = false;
+        private bool isPrinting = false;
         public async Task PassbookPrintRekening(transaksi trx)
         {
             printDoc = new PrintDocument();
@@ -31,19 +32,25 @@ namespace Integrasi_HTML.Data
         public void BeginPrintEH(object sender, PrintEventArgs e)
         {
             SolidBrush blackbrush = new SolidBrush(Color.Black);
+            isEnd = false;
+            isPrinting = false;
         }
 
         public void EndPrintEH (object sender, PrintEventArgs e)
         {
             SolidBrush blackbrush = new SolidBrush(Color.Black);
             blackbrush.Dispose();
+            if(isPrinting)
+            {
+                isEnd = true;
+            }
         }
 
         public void PassbookPrintPageRekening(object sender, PrintPageEventArgs e)
         {
             SolidBrush blackbrush = new SolidBrush(Color.Black);
             Graphics g = e.Graphics;
-
+            isPrinting = true;
             /*g.DrawString("CETAK BUKU REKENING", new Font("Arial", 24, FontStyle.Bold), blackbrush, new Point(200, 20));
             
             g.DrawString("NO", font, blackbrush, new Point(0, 70));
@@ -58,10 +65,10 @@ namespace Integrasi_HTML.Data
             int saldo = int.Parse(_trx._saldo);
             int baris = int.Parse(_trx._baris);
             int ypoint = 75;
-            int sisabaris = 12 * baris;
+            int sisabaris = 13 * baris;
             if (baris > 20)
             {
-                sisabaris = sisabaris + (12 * 8);
+                sisabaris = sisabaris + (12 * 5);
             }
             ypoint += sisabaris;
             for(int i = 0; i < _trx._tipe.Length; i++)
@@ -97,10 +104,10 @@ namespace Integrasi_HTML.Data
                     g.DrawString(_trx._startdate, font, blackbrush, new Point(30, ypoint));
                     g.DrawString(_trx._pengesahan[i], font, blackbrush, new Point(442, ypoint));
                     baris += 1;
-                    ypoint += 12;
+                    ypoint += 13;
                     if (baris == 21)
                     {
-                        ypoint = ypoint + (12 * 8);
+                        ypoint = ypoint + (12 * 5);
                     }
                 }
         }
@@ -135,10 +142,10 @@ namespace Integrasi_HTML.Data
             int saldo = int.Parse(_trx._saldo);
             int baris = int.Parse(_trx._baris);
             int ypoint = 70;
-            int sisabaris = 12 * baris;
+            int sisabaris = 13 * baris;
             if (baris > 10)
             {
-                sisabaris = sisabaris + (12 * 8);
+                sisabaris = sisabaris + (12 * 5);
             }
             ypoint += sisabaris;
             for (int i = 0; i < _trx._tipe.Length; i++)
@@ -177,13 +184,15 @@ namespace Integrasi_HTML.Data
                     g.DrawString(_trx._startdate, font, blackbrush, new Point(30, ypoint));
                     g.DrawString(_trx._pengesahan[i], font, blackbrush, new Point(442, ypoint));
                     baris += 1;
-                    ypoint += (12 * 2);
+                    ypoint += (13 * 2);
                     if (baris == 11)
                     {
-                        ypoint = ypoint + (24 * 3);
+                        ypoint = ypoint + (12 * 5);
                     }
                 }
             }
+            if (!e.HasMorePages)
+                isEnd = true;
         }
         public async Task HistoriPrint(transaksi trx)
         {
