@@ -31,6 +31,7 @@ namespace Integrasi_HTML
             services.AddSingleton<WeatherForecastService>();
             services.AddScoped<transaksi>();
             services.AddSingleton<printer>();
+            services.AddScoped<EDC>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

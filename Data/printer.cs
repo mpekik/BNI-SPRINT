@@ -57,7 +57,7 @@ namespace Integrasi_HTML.Data
 
             int saldo = int.Parse(_trx._saldo);
             int baris = int.Parse(_trx._baris);
-            int ypoint = 70;
+            int ypoint = 75;
             int sisabaris = 12 * baris;
             if (baris > 20)
             {
@@ -77,20 +77,20 @@ namespace Integrasi_HTML.Data
                         //Random rnd = new Random();
                         string sandi = _trx._tipe[i];
                         saldo -= nominal;
-                        string debetprint = "-" + nominal.ToString();
+                        string debetprint = "-" + nominal.ToString("N0");
                         g.DrawString(sandi, font, blackbrush, new Point(87, ypoint));
                         g.DrawString(debetprint, font, blackbrush, new Point(155, ypoint));
-                        g.DrawString(saldo.ToString(), font, blackbrush, new Point(340, ypoint));
+                        g.DrawString(saldo.ToString("N0"), font, blackbrush, new Point(340, ypoint));
                     }
                     else
                     {
                         //Random rnd = new Random();
                         string sandi = _trx._tipe[i];
                         saldo += nominal;
-                        string kreditprint = nominal.ToString();
+                        string kreditprint = nominal.ToString("N0");
                         g.DrawString(sandi, font, blackbrush, new Point(87, ypoint));
                         g.DrawString(kreditprint, font, blackbrush, new Point(249, ypoint));
-                        g.DrawString(saldo.ToString(), font, blackbrush, new Point(340, ypoint));
+                        g.DrawString(saldo.ToString("N0"), font, blackbrush, new Point(340, ypoint));
                     }
 
                     g.DrawString(baris.ToString(), font, blackbrush, new Point(0, ypoint));
@@ -229,8 +229,12 @@ namespace Integrasi_HTML.Data
                     g.DrawString(_trx._jam, font, blackBrush, new Point(130, ypoint1));
                     ypoint1 += 40;
                     g.DrawString(_trx._tipe[i], font, blackBrush, new Point(350, ypoint));
-                    g.DrawString(nominal.ToString(), font, blackBrush, new Point(450, ypoint));
-                    g.DrawString(saldo.ToString(), font, blackBrush, new Point(600, ypoint));
+                    //nominal = nominal / 1000;
+                    //string nominalprint = nominal.ToString() + ".000" + ",00";
+                    //saldo = saldo / 1000;
+                    //string saldoprint = saldo.ToString() + ".000" + ",00";
+                    g.DrawString(nominal.ToString("N0"), font, blackBrush, new Point(450, ypoint)); ;
+                    g.DrawString(saldo.ToString("N0"), font, blackBrush, new Point(600, ypoint));
                     ypoint = ypoint1;
                     saldo += nominal;
                 }
@@ -244,8 +248,12 @@ namespace Integrasi_HTML.Data
                     g.DrawString(_trx._jam, font, blackBrush, new Point(130, ypoint1));
                     ypoint1 += 40;
                     g.DrawString(_trx._tipe[i], font, blackBrush, new Point(350, ypoint));
-                    g.DrawString(nominal.ToString(), font, blackBrush, new Point(450, ypoint));
-                    g.DrawString(saldo.ToString(), font, blackBrush, new Point(600, ypoint));
+                    //nominal = nominal / 1000;
+                    //string nominalprint = nominal.ToString() + ".000" + ",00";
+                    //saldo = saldo / 1000;
+                    //string saldoprint = saldo.ToString() + ".000" + ",00";
+                    g.DrawString(nominal.ToString("N0"), font, blackBrush, new Point(450, ypoint));
+                    g.DrawString(saldo.ToString("N0"), font, blackBrush, new Point(600, ypoint));
                     ypoint = ypoint1;
                     saldo += nominal;
                 }
@@ -322,11 +330,14 @@ namespace Integrasi_HTML.Data
         }
         public void ThermalPrintPage(object sender, PrintPageEventArgs e)
         {
+            string logo = "C:\\bniThermal.bmp";
             SolidBrush blackBrush = new SolidBrush(Color.Black);
             Graphics g = e.Graphics;
             font = new Font("Arial", 10, FontStyle.Regular);
+            Image img = Image.FromFile(logo);
 
-            g.DrawString("Cetak Thermal", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(5, 10));
+            g.DrawImage(img, (e.PageBounds.Width - img.Width) / 2, 0, img.Width, img.Height);
+            //g.DrawString("Cetak Thermal", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(5, 10));
 
             string joint = string.Empty;
 

@@ -2,6 +2,7 @@
 @using Integrasi_HTML.Data
 
 @inject transaksi trx
+@inject NavigationManager navman
 
     <div class="col-md-8" style="margin-top: 6.5%;">
         <h2 class="teks-hello2">Hello, <b class="nama-pelanggan">@trx._nasabah</b></h2>
@@ -19,9 +20,24 @@
                 </div>
             </div>
         </div>
+        <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute">
+            <div class="container-fluid">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-8" style="margin-top: 40px; margin-left: 30px;" @onclick="pilihmenu">
+                    <img src="../../assets/img/btn-back.png" style="width: 30px;">
+                    <class="teks-back"><b>&nbsp;Kembali</b></class>
+                </div>
+            </div>
+        </nav>
     </div>
 
 @code {
     [Parameter]
     public EventCallback<string> OnClick { get; set; }
+
+    private void pilihmenu()
+    {
+        navman.NavigateTo("/pilihmenu");
+    }
 }

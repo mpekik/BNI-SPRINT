@@ -1,0 +1,55 @@
+﻿@page "/pilihmenu"
+
+@inject NavigationManager navman
+
+    <div class="wrapper">
+        <div class="main-panel">
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="bni-logo" src="../assets/img/bni-white.png"><br><br><br>
+                            <div class="text-white">
+                                <h2 class="teks-sidebar font-qs-bold">Cetak Transaksi Anda</h2><br>
+                            </div>
+                            <img class="nav-vektor" src="../assets/img/vektor-a.png">
+                        </div>
+
+                        <div class="col-md-8" style="text-align: center; margin-top: 7%;">
+                            <img class="img-list-menu" src="../assets/img/list-menu.png">
+                            <h2 class="teks-jenis-trx">Silakan pilih jenis Transaksi</h2>
+
+                            <div class="row2" style="margin-left: 12%;">
+                                <div class="card" style="width: 17rem; height: 19rem;" @onclick="buku">
+                                    <img class="card-img-top" src="../assets/img/card-bni.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Buku Tabungan</h5>
+                                        <p class="card-text">Cetak transaksi pada buku tabungan Anda</p>
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 17rem; height: 19rem; margin-left: 8rem;" @onclick="histori">
+                                    <img class="card-img-top" src="../assets/img/img-histori.png" alt="Card image cap" style="width: 52%;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Histori Transaksi</h5>
+                                        <p class="card-text">Cetak transaksi pada buku tabungan Anda</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@code {
+    private void buku()
+    {
+        navman.NavigateTo("/bukutabungan");
+    }
+    private void histori()
+    {
+        navman.NavigateTo("/historitransaksi");
+    }
+}
