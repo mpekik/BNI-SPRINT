@@ -5,6 +5,7 @@
 
 @inject transaksi trx
 @inject printer print
+@inject NavigationManager navman
 
 <div class="col-md-8" style="margin-top: 6.5%;">
     <h2 id="" class="teks-hello2">Hello, <b class="nama-pelanggan">@trx._nasabah</b></h2>
@@ -32,8 +33,26 @@
     </div>
 }
 
+@if (isBaris)
+{
+    <div class="modal" id="myModal" aria-hidden="true">
+        <div class="modal-dialog2 modal-dialog-centered" role="document" style="top: -2rem;">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="../../assets/img/loading.gif" style="width: 30%;">
+                    <p style="margin-top: -1rem;">Apakah anda ingin mencetak halaman berikutnya?</p>
+                    <p><button type="button" class="btn btn-danger2" id="myBtn" @onclick="testVisible">Ya</button></p>
+                    <p><button type="button" class="btn btn-danger-no" @onclick="home">Tidak</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
 @code {
     private bool isVisible = false;
+    private bool isBaris = false;
+    private bool berhasil = true;
     private string startdate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1).ToString("yyyy-MM-dd");
     private string enddate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1).AddMonths(1).AddDays(-1).ToString("yyyy-MM-dd");
     private string hour = DateTime.Now.ToString("HH:mm:ss");
@@ -50,49 +69,138 @@
     private string[] uraian;
     private string[] tipe;
     private string[] nominal;
+    private string periodeprint = "Periode Satu Bulan Berjalan";
     private string saldo = "1000000";
 
     private async Task CheckVisible()
     {
         isVisible = !isVisible;
         trx.clearArray();
-        string path = "C:\\input histori a4.csv";
+        string path = "C:\\Trilogi Persada-BNI\\input histori a4.csv";
         string[] lines = System.IO.File.ReadAllLines(path);
         uraian = new string[lines.Length];
         tipe = new string[lines.Length];
         nominal = new string[lines.Length];
-        for(int i = 0; i < lines.Length; i++)
+        for (int i = 0; i < lines.Length; i++)
         {
             string[] column = lines[i].Split(";");
-            for(int j = 0; j < column.Length; j++)
+            for (int j = 0; j < column.Length; j++)
             {
-                if(j == 0)
+                if (j == 0)
                 {
                     uraian[i] = column[j];
                 }
-                else if(j == 1)
+                else if (j == 1)
                 {
                     tipe[i] = column[j];
                 }
-                else if(j == 2)
+                else if (j == 2)
                 {
                     nominal[i] = column[j];
                 }
             }
         }
-        trx.setTransaksiHistori(uraian, tipe, nominal, saldo, enddate, hour);
-        Random rnd = new Random();
-        int next = rnd.Next(0, 1);
-        if(next == 0)
+        string jumlahtransaksi = uraian.Length.ToString();
+        trx.setTransaksiHistori(jumlahtransaksi, periodeprint, uraian, tipe, nominal, saldo, startdate, enddate, hour);
+        //Random rnd = new Random();
+        //int next = rnd.Next(0, 1);
+        if (berhasil)
         {
-            await print.HistoriPrint(trx);
-            await Task.Delay(10000);
-            OnClick.InvokeAsync("transaksiberhasil");
+            int maxbaris = 12;
+            int totalbaris = trx._uraian.Length;
+            int halaman;
+            int maxhalaman;
+            if (totalbaris > maxbaris)
+            {
+                int n = totalbaris / maxbaris;
+                string[] tempuraian = null;
+                string[] temptipe = null;
+                string[] tempnominal = null;
+                int startindex = 0;
+                if (totalbaris % maxbaris > 0)
+                {
+                    n += 1;
+                }
+                maxhalaman = n;
+                trx.setMaxHalaman(maxhalaman.ToString());
+                tempuraian = new string[trx._uraian.Length];
+                temptipe = new string[trx._tipe.Length];
+                tempnominal = new string[trx._nominal.Length];
+                Array.Copy(trx._uraian, startindex, tempuraian, 0, trx._uraian.Length);
+                Array.Copy(trx._tipe, startindex, temptipe, 0, trx._tipe.Length);
+                Array.Copy(trx._nominal, startindex, tempnominal, 0, trx._nominal.Length);
+                halaman = 1;
+                for (int i = 0; i < n; i++)
+                {
+                    uraian = null;
+                    tipe = null;
+                    nominal = null;
+                    if (i == n - 1)
+                    {
+                        trx.clearArray();
+                        int sisabaris = tempuraian.Length - startindex;
+                        uraian = new string[sisabaris];
+                        tipe = new string[sisabaris];
+                        nominal = new string[sisabaris];
+                        Array.Copy(tempuraian, startindex, uraian, 0, sisabaris);
+                        Array.Copy(temptipe, startindex, tipe, 0, sisabaris);
+                        Array.Copy(tempnominal, startindex, nominal, 0, sisabaris);
+                        trx.setTransaksiHistori(uraian, tipe, nominal, halaman.ToString());
+                        saldo = await Task.Run(()=>print.HistoriPrint(trx));
+                        await Task.Delay(20000);
+                        OnClick.InvokeAsync("transaksiberhasil");
+                        break;
+                    }
+                    else
+                    {
+                        trx.clearArray();
+                        uraian = new string[maxbaris];
+                        tipe = new string[maxbaris];
+                        nominal = new string[maxbaris];
+                        Array.Copy(tempuraian, startindex, uraian, 0, maxbaris);
+                        Array.Copy(temptipe, startindex, tipe, 0, maxbaris);
+                        Array.Copy(tempnominal, startindex, nominal, 0, maxbaris);
+                        trx.setTransaksiHistori(uraian, tipe, nominal, halaman.ToString());
+                        saldo = await Task.Run(()=>print.HistoriPrint(trx));
+                        startindex += maxbaris;
+                        halaman += 1;
+                        maxhalaman -= 1;
+                        await Task.Delay(1000);
+                    }
+                    isVisible = false;
+                    if (maxhalaman > 1)
+                    {
+                        isBaris = !isBaris;
+                        StateHasChanged();
+                        do
+                        {
+                            await Task.Delay(100);
+                        } while (isBaris);
+                    }
+                }
+            }
+            else if (totalbaris < maxbaris)
+            {
+                saldo = await Task.Run(()=>print.HistoriPrint(trx));
+                await Task.Delay(10000);
+                OnClick.InvokeAsync("transaksiberhasil");
+            }
         }
         else
         {
             OnClick.InvokeAsync("transaksigagal");
         }
+    }
+
+    private void testVisible()
+    {
+        isVisible = true;
+        isBaris = false;
+    }
+
+    private void home()
+    {
+        navman.NavigateTo("/");
     }
 
     [Parameter]

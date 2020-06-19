@@ -52,7 +52,7 @@
         "DBT", "DBT", "KRT", "KRT", "DBT", "DBT", "DBT", "DBT", "KRT", "KRT"
     };*/
     private string[] tanggal;
-    private string[] keterangan;
+    private string[] nominal;
     private string[] kode;
     private string saldo = "1000000";
 
@@ -62,8 +62,8 @@
         string path = "C:\\input thermal.csv";
         string[] lines = System.IO.File.ReadAllLines(path);
         tanggal = new string[lines.Length];
-        keterangan = new string[lines.Length];
         kode = new string[lines.Length];
+        nominal = new string[lines.Length];
         for(int i = 0; i < lines.Length; i++)
         {
             string[] column = lines[i].Split(";");
@@ -75,15 +75,15 @@
                 }
                 else if(j == 1)
                 {
-                    keterangan[i] = column[j];
+                    kode[i] = column[j];
                 }
                 else if(j == 2)
                 {
-                    kode[i] = column[j];
+                    nominal[i] = column[j];
                 }
             }
         }
-        trx.setPrintThermal(tanggal, keterangan, kode, saldo);
+        trx.setPrintThermal(tanggal, kode, nominal, saldo);
         //Random rnd = new Random();
         //int next = rnd.Next(0, 1);
         if (cetak)

@@ -1,16 +1,35 @@
 ﻿@using Microsoft.AspNetCore.Components
-
+@using System.IO.Ports
+@using Integrasi_HTML.Data
 @inject NavigationManager navman
+@inject EDC edc
 
-    <div class="col-md-8" style="margin-top: 15%; text-align: center;">
-        <img src="../../assets/img/icn-berhasil.png" style="width: 15%;"><br><br>
-        <p class="teks-desc6">Buku <b style="color: rgb(0, 211, 95);">Berhasil</b> dicetak</p>
-        <p class="teks-desc6">"Silakan Ambil Buku Tabungan Anda"</p>
-    </div>
+<div class="col-md-8" style="margin-top: 15%; text-align: center;">
+    <img src="../../assets/img/icn-berhasil.png" style="width: 15%;"><br><br>
+    <p class="teks-desc6">Buku <b style="color: rgb(0, 211, 95);">Berhasil</b> dicetak</p>
+    <p class="teks-desc6">"Silakan Ambil Buku Tabungan Anda"</p>
+</div>
 
-@code {      
+@code {
     protected override async Task OnInitializedAsync()
     {
+        edc.Clear();
+        edc.serialPort = new SerialPort();
+        edc.serialPort.PortName = "COM6";
+        edc.serialPort.DataReceived += new SerialDataReceivedEventHandler(edc.port_DataReceived);
+        await Task.Run(() => edc.SendCommand(edc.serialPort, "13"));
+        do
+        {
+            Task.Delay(100);
+            if (edc.statusCode == "00")
+            {
+                break;
+            }
+            else if (edc.statusCode == "55" || edc.statusCode == "TO")
+            {
+                break;
+            }
+        } while (edc.statusCode == string.Empty);
         await Task.Delay(5000);
         navman.NavigateTo("/");
     }

@@ -20,7 +20,7 @@
         await Task.Run(() => edc.SendCommand(edc.serialPort, "13"));
         do
         {
-            await Task.Delay(500);
+            Task.Delay(100);
             if (edc.statusCode == "00")
             {
                 break;
@@ -30,7 +30,7 @@
                 break;
             }
         } while (edc.statusCode == string.Empty);
-        await Task.Delay(15000);
+        await Task.Delay(5000);
         navman.NavigateTo("/");
     }
 }

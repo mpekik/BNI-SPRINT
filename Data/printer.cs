@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Drawing;
 using System.Drawing.Printing;
+using System.Printing;
 using System.Runtime.CompilerServices;
+using System.Text;
 
 namespace Integrasi_HTML.Data
 {
@@ -33,22 +35,23 @@ namespace Integrasi_HTML.Data
         public void BeginPrintEH(object sender, PrintEventArgs e)
         {
             SolidBrush blackbrush = new SolidBrush(Color.Black);
-            isEnd = false;
-            isPrinting = false;
+            //isEnd = false;
+            //isPrinting = false;
         }
 
         public void EndPrintEH (object sender, PrintEventArgs e)
         {
             SolidBrush blackbrush = new SolidBrush(Color.Black);
             blackbrush.Dispose();
-            if(isPrinting)
+            /*if(isPrinting)
             {
                 isEnd = true;
-            }
+            }*/
         }
 
         public void PassbookPrintPageRekening(object sender, PrintPageEventArgs e)
         {
+            font = new Font("Calibri", 8, FontStyle.Regular);
             SolidBrush blackbrush = new SolidBrush(Color.Black);
             Graphics g = e.Graphics;
             isPrinting = true;
@@ -202,79 +205,153 @@ namespace Integrasi_HTML.Data
 
             _trx._saldo = saldo.ToString();
         }
-        public async Task HistoriPrint(transaksi trx)
+        public string HistoriPrint(transaksi trx)
         {
             printDoc = new PrintDocument();
             _trx = trx;
             //printDoc.PrinterSettings.PrinterName = "Canon MP280 series Printer";
             //printDoc.PrinterSettings.PrinterName = "PsiPR-OLI";
-            printDoc.PrinterSettings.PrinterName = "Brother HL-L2360D series";
+            printDoc.PrinterSettings.PrinterName = "EPSON L3150 Series";
             printDoc.BeginPrint += new PrintEventHandler(BeginPrintEH);
             printDoc.EndPrint += new PrintEventHandler(EndPrintEH);
             printDoc.PrintPage += new PrintPageEventHandler(HistoriPrintPage);
             printDoc.Print();
-        } 
+            string machinenames = Environment.MachineName;
+            PrintServer myprintserver = new LocalPrintServer();
+            PrintQueueCollection myprintqueue = myprintserver.GetPrintQueues();
+            string printqueue = "my print queue : \n\n";
+            bool isjobdone = false;
+            Console.WriteLine(printqueue);
+            foreach (PrintQueue pq in myprintqueue)
+            {
+                pq.Refresh();
+                //if (pq.Name != "Brother HL-L2360D series") continue;
+                if (pq.Name != "EPSON L3150 Series") continue;
+                Console.WriteLine(pq.Name);
+                do
+                {
+                    PrintJobInfoCollection jobs = pq.GetPrintJobInfoCollection();
+                    foreach (PrintSystemJobInfo job in jobs)
+                    {
+                        Console.WriteLine(job.JobName);
+                        Console.WriteLine(job.JobStatus);
+                        if (job.IsPrinted)
+                            isjobdone = true;
+                    }
+                } while (isjobdone);
+            }
+            Console.WriteLine("Print Selesai ...");
+            Console.ReadLine();
+            return _trx._saldo;
+        }
         public void HistoriPrintPage(object sender, PrintPageEventArgs e)
         {
             SolidBrush blackBrush = new SolidBrush(Color.Black);
             Graphics g = e.Graphics;
-            font = new Font("Arial", 10, FontStyle.Regular);
 
-            g.DrawString("CETAK TRANSAKSI", new Font("Arial", 24, FontStyle.Bold), blackBrush, new Point(200, 20));
+            //g.DrawString("CETAK TRANSAKSI", new Font("Arial", 24, FontStyle.Bold), blackBrush, new Point(200, 20));
 
-            g.DrawString("Uraian", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(30, 150));
-            g.DrawString("Tipe", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(350, 150));
-            g.DrawString("Nominal", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(450, 150));
-            g.DrawString("Saldo", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(600, 130));
-            g.DrawString("Akhir", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(600, 150));
+            string logo = "C:\\Trilogi Persada-BNI\\bniA4.bmp";
+            Image img = Image.FromFile(logo);
+            g.DrawImage(img, new Point(50, 50));
+
+            string cabang = "BNI Cabang " + _trx._namacabang;
+            string nasabah = _trx._nasabah;
+            string alamat = _trx._alamatnasabah;
+
+            g.DrawString("Nama Nasabah", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(50, 130));
+            g.DrawString("Alamat Nasabah", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(50, 150));
+
+            g.DrawString(":", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(170, 130));
+            g.DrawString(":", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(170, 150));
+
+            g.DrawString(cabang, new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(50, 110));
+            g.DrawString(nasabah, new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(180, 130));
+            g.DrawString(alamat, new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(180, 150));
+
+            string periode = _trx._startdate + " s/d " + _trx._enddate;
+            string norekening = _trx._rekening;
+            string jumlah = _trx._jumlahtransaksi + " transaksi";
+
+            g.DrawString("Periode", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(350, 90));
+            g.DrawString("Nomor Rekening", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(350, 110));
+            g.DrawString("Jenis Tabungan", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(350, 130));
+            g.DrawString("Jumlah Transaksi", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(350, 150));
+
+            g.DrawString(":", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(470, 90));
+            g.DrawString(":", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(470, 110));
+            g.DrawString(":", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(470, 130));
+            g.DrawString(":", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(470, 150));
+
+            g.DrawString(periode, new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(480, 90));
+            g.DrawString(norekening, new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(480, 110));
+            g.DrawString("Taplus", new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(480, 130));
+            g.DrawString(jumlah, new Font("Arial", 10, FontStyle.Regular), blackBrush, new Point(480, 150));
+
+            g.DrawString("Uraian", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(50, 200));
+            g.DrawString("Tipe", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(350, 200));
+            g.DrawString("Nominal", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(450, 200));
+            g.DrawString("Saldo", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(600, 180));
+            g.DrawString("Akhir", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(600, 200));
 
             int saldo = int.Parse(_trx._saldo);
-            int ypoint = 170;
-            for(int i = 0; i < _trx._uraian.Length; i++)
+            int ypoint = 220;
+            font = new Font("Arial", 10, FontStyle.Regular);
+            for (int i = 0; i < _trx._uraian.Length; i++)
             {
-                if(_trx._uraian[i].Length >= 40)
+                int ypoint1 = ypoint;
+                int nominal = int.Parse(_trx._nominal[i]);
+                if (_trx._uraian[i].Length >= 40)
                 {
                     string[] arrayhsl = stringSplit(_trx._uraian[i]);
-                    int nominal = int.Parse(_trx._nominal[i]);
-                    int ypoint1 = ypoint;
-                    for(int j = 0; j < arrayhsl.Length; j++)
+                    //int nominal = int.Parse(_trx._nominal[i]);
+                    //int ypoint1 = ypoint;
+                    for (int j = 0; j < arrayhsl.Length; j++)
                     {
-                        g.DrawString(arrayhsl[j], font, blackBrush, new Point(30, ypoint1));
+                        g.DrawString(arrayhsl[j], font, blackBrush, new Point(50, ypoint1));
                         ypoint1 += 20;
                     }
-                    g.DrawString(_trx._enddate, font, blackBrush, new Point(30, ypoint1));
+                    /*g.DrawString(_trx._enddate, font, blackBrush, new Point(30, ypoint1));
                     g.DrawString(_trx._jam, font, blackBrush, new Point(130, ypoint1));
                     ypoint1 += 40;
                     g.DrawString(_trx._tipe[i], font, blackBrush, new Point(350, ypoint));
-                    //nominal = nominal / 1000;
-                    //string nominalprint = nominal.ToString() + ".000" + ",00";
-                    //saldo = saldo / 1000;
-                    //string saldoprint = saldo.ToString() + ".000" + ",00";
-                    g.DrawString(nominal.ToString("N0"), font, blackBrush, new Point(450, ypoint)); ;
-                    g.DrawString(saldo.ToString("N0"), font, blackBrush, new Point(600, ypoint));
+                    g.DrawString(nominal.ToString(), font, blackBrush, new Point(450, ypoint));
+                    g.DrawString(saldo.ToString(), font, blackBrush, new Point(600, ypoint));
                     ypoint = ypoint1;
-                    saldo += nominal;
+                    saldo += nominal;*/
                 }
                 else
                 {
-                    g.DrawString(_trx._uraian[i], font, blackBrush, new Point(30, ypoint));
-                    int nominal = int.Parse(_trx._nominal[i]);
-                    int ypoint1 = ypoint;
+                    g.DrawString(_trx._uraian[i], font, blackBrush, new Point(50, ypoint));
+                    //int nominal = int.Parse(_trx._nominal[i]);
+                    //int ypoint1 = ypoint;
                     ypoint1 += 20;
-                    g.DrawString(_trx._enddate, font, blackBrush, new Point(30, ypoint1));
+                    /*g.DrawString(_trx._enddate, font, blackBrush, new Point(30, ypoint1));
                     g.DrawString(_trx._jam, font, blackBrush, new Point(130, ypoint1));
                     ypoint1 += 40;
                     g.DrawString(_trx._tipe[i], font, blackBrush, new Point(350, ypoint));
-                    //nominal = nominal / 1000;
-                    //string nominalprint = nominal.ToString() + ".000" + ",00";
-                    //saldo = saldo / 1000;
-                    //string saldoprint = saldo.ToString() + ".000" + ",00";
-                    g.DrawString(nominal.ToString("N0"), font, blackBrush, new Point(450, ypoint));
-                    g.DrawString(saldo.ToString("N0"), font, blackBrush, new Point(600, ypoint));
+                    g.DrawString(nominal.ToString(), font, blackBrush, new Point(450, ypoint));
+                    g.DrawString(saldo.ToString(), font, blackBrush, new Point(600, ypoint));
                     ypoint = ypoint1;
-                    saldo += nominal;
+                    saldo += nominal;*/
                 }
+                g.DrawString(_trx._enddate, font, blackBrush, new Point(50, ypoint1));
+                g.DrawString(_trx._jam, font, blackBrush, new Point(130, ypoint1));
+                ypoint1 += 40;
+                g.DrawString(_trx._tipe[i], font, blackBrush, new Point(350, ypoint));
+                g.DrawString(nominal.ToString("N0"), font, blackBrush, new Point(450, ypoint));
+                g.DrawString(saldo.ToString("N0"), font, blackBrush, new Point(600, ypoint));
+                ypoint = ypoint1;
+                if (_trx._tipe[i] == "D")
+                    saldo -= nominal;
+                else
+                    saldo += nominal;
+                //saldo += nominal;
             }
+            ypoint += 40;
+            string halaman = "halaman ke " + _trx._halaman + " dari " + _trx._maxhalaman;
+            g.DrawString(halaman, new Font("Calibri", 10, FontStyle.Regular), blackBrush, new Point(600, ypoint));
+            _trx._saldo = saldo.ToString();
         }
 
         public void BukuPenuhPage(object sender, PrintPageEventArgs e)
@@ -292,20 +369,27 @@ namespace Integrasi_HTML.Data
             g.DrawImage(img, (e.PageBounds.Width - img.Width) / 2, 0, img.Width, img.Height);
             //g.DrawString("Cetak Thermal", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(5, 10));
 
-            string joint = "No Rekening : " + _trx._rekening;
+            string lokasi = "KCP CIKUPA 3";
+            string joint = "Lokasi : " + lokasi;
             g.DrawString(joint, font, blackBrush, new Point(5, 50));
 
+            joint = "Date : " + DateTime.Now.ToString("yyyy-MM-dd");
+            g.DrawString(joint, font, blackBrush, new Point(5, 70));
+
+            joint = "No Rekening : " + _trx._rekening.Substring(0,_trx._rekening.Length-4)+"****";
+            g.DrawString(joint, font, blackBrush, new Point(5, 120));
+
             joint = "Nama Nasabah : " + _trx._nasabah;
-            g.DrawString(joint, font, blackBrush, new Point(5, 100));
+            g.DrawString(joint, font, blackBrush, new Point(5, 140));
             int saldo = int.Parse(_trx._saldo);
-            joint = "Saldo Terakhir : Rp " + saldo.ToString("N0");
-            g.DrawString(joint, font, blackBrush, new Point(5, 150));
+            joint = "Saldo Buku : Rp " + saldo.ToString("N0");
+            g.DrawString(joint, font, blackBrush, new Point(5, 160));
             joint = "Harap Menghubungi Costumer Service";
-            g.DrawString(joint, font, blackBrush, new Point(5, 200), formatCenter);
+            g.DrawString(joint, font, blackBrush, new Point(5, 210));
             joint = "Untuk Melakukan Penggantian Buku";
-            g.DrawString(joint, font, blackBrush, new Point(5, 150), formatCenter);
+            g.DrawString(joint, font, blackBrush, new Point(5, 230));
             joint = "Dengan Menyertakan Struk Ini";
-            g.DrawString(joint, font, blackBrush, new Point(5, 150), formatCenter);
+            g.DrawString(joint, font, blackBrush, new Point(5, 250));
         }
         public async Task BukuPenuhPrint(transaksi trx)
         {
@@ -398,23 +482,42 @@ namespace Integrasi_HTML.Data
             //g.DrawString("Cetak Thermal", new Font("Arial", 12, FontStyle.Regular), blackBrush, new Point(5, 10));
 
             string joint = string.Empty;
+            
+            string date = DateTime.Now.ToString("yyyy-MM-dd");
+            date = "Date :" + date;
+            string lokasi = "KCP CIKUPA 3";
 
-            int batastrx = _trx._uraian.Length - 10;
-            int ypoint = 50;
+            joint = "Lokasi : " + lokasi;
+            g.DrawString(joint, font, blackBrush, new Point(5, 50));
+            g.DrawString(date, font, blackBrush, new Point(5, 70));
+
+            joint = "No Rekening : " + _trx._rekening;
+            g.DrawString(joint, font, blackBrush, new Point(5, 120));
+            joint = "Nama Nasabah : " + _trx._nasabah;
+            g.DrawString(joint, font, blackBrush, new Point(5, 140));
+            
+            joint = string.Empty;
+
+            int batastrx = _trx._tipe.Length - 10;
+            int ypoint = 190;
             //string joint = string.Empty;
             int saldo = int.Parse(_trx._saldo);
-            for(int i = batastrx; i < _trx._uraian.Length; i++)
+            for (int i = batastrx; i < _trx._tipe.Length; i++)
             {
+                int nominal = int.Parse(_trx._nominal[i]);
                 Random rnd = new Random();
-                if(_trx._uraian[i] == "DEBET")
+                if (_trx._tipe[i] == "D")
                 {
-                    saldo -= rnd.Next(100000);
+                    saldo -= nominal;
                 }
                 else
                 {
-                    saldo += rnd.Next(100000);
+                    saldo += nominal;
                 }
-                joint = joint + _trx._tanggal[i] + " " + _trx._uraian[i] + " " + _trx._tipe[i] + " " + saldo.ToString();
+                string spasi = " ";
+                string nominalprint = nominal.ToString("N0");
+                string saldoprint = saldo.ToString("N0");
+                joint = joint + _trx._tanggal[i] + spasi + spasi + _trx._tipe[i] + spasi + spasi + nominalprint + spasi + spasi + saldoprint;
                 g.DrawString(joint, font, blackBrush, new Point(5, ypoint));
                 ypoint += 20;
                 joint = string.Empty;

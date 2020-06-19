@@ -1,13 +1,16 @@
 ﻿@using Microsoft.AspNetCore.Components
+@using Integrasi_HTML.Data
+
+@inject transaksi trx
 
     <div class="col-md-8">
         <div class="welcome-right">
             <h2 class="teks-right-title">Selamat Datang di</h2>
-            <p class="teks-cabang">KCP Cikupa 3</p><br>
+            <p class="teks-cabang">@cabangbni</p><br>
             <p class="teks-desc">Siapkan Kartu ATM Anda untuk memulai transaksi</p>
         </div>
         <div class="btn-center">
-            <button class="btn-mulai" @onclick="@(() => OnClick.InvokeAsync("login"))">Mulai</button>
+            <button class="btn-mulai" @onclick="login">Mulai</button>
         </div>
     </div>
 
@@ -15,4 +18,12 @@
         @code {
             [Parameter]
             public EventCallback<string> OnClick { get; set; }
+
+            public string cabangbni = "KCP Cikupa 3";
+
+            public void login()
+            {
+                trx.setcabang(cabangbni);
+                OnClick.InvokeAsync("login");
+            }
         }
