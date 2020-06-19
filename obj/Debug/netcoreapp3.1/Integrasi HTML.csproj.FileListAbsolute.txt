@@ -900,3 +900,147 @@ C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3
 C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.dll
 C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.pdb
 C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.genruntimeconfig.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.ResolveComReference.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfo.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorComponent.input.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\HomeComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\LoginComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\BukuTabungan.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\PilihMenu.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\Integrasi HTML.exe
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\Integrasi HTML.deps.json
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.json
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.dev.json
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.ComponentModel.Composition.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.ComponentModel.Composition.Registration.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Data.Odbc.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Data.OleDb.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.DirectoryServices.AccountManagement.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.DirectoryServices.Protocols.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.IO.Ports.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Management.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Private.ServiceModel.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Reflection.Context.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.ServiceModel.Syndication.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Threading.AccessControl.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\System.IO.Ports.Native.so
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\System.IO.Ports.Native.so
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\System.IO.Ports.Native.so
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\System.IO.Ports.Native.dylib
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\bin\Debug\netcoreapp3.1\System.Printing.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\RazorDeclaration\Integrasi HTML.dll
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.input.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.output.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorCoreGenerate.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\Index\HomeComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\Index\LoginComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Pages\BukuTabungan.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Pages\PilihMenu.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cs
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CopyComplete
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.Manifest.cache
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.xml
+C:\Users\user\Source\Repos\mpekik\BNI-SPRINT\obj\Debug\netcoreapp3.1\Integrasi HTML.genruntimeconfig.cache

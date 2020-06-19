@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TRILOGI\\Documents\\Trilogi\\Project\\BNI\\New folder\\Integrasi HTML\\Integrasi HTML.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\mpekik\\BNI-SPRINT\\Integrasi HTML.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TRILOGI\\Documents\\Trilogi\\Project\\BNI\\New folder\\Integrasi HTML\\Integrasi HTML.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\mpekik\\BNI-SPRINT\\Integrasi HTML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TRILOGI\\Documents\\Trilogi\\Project\\BNI\\New folder\\Integrasi HTML\\Integrasi HTML.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\mpekik\\BNI-SPRINT\\Integrasi HTML.csproj",
         "projectName": "Integrasi HTML",
-        "projectPath": "C:\\Users\\TRILOGI\\Documents\\Trilogi\\Project\\BNI\\New folder\\Integrasi HTML\\Integrasi HTML.csproj",
-        "packagesPath": "C:\\Users\\TRILOGI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TRILOGI\\Documents\\Trilogi\\Project\\BNI\\New folder\\Integrasi HTML\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\mpekik\\BNI-SPRINT\\Integrasi HTML.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\mpekik\\BNI-SPRINT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TRILOGI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
