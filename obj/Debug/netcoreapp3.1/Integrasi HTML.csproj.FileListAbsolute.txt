@@ -1,0 +1,902 @@
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.exe
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.deps.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.dev.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csprojAssemblyReference.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorComponent.input.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.input.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.output.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorCoreGenerate.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfo.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.Manifest.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.xml
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.genruntimeconfig.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CopyComplete
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\BukuTabungan.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\HomeComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\LoginComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.ResolveComReference.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Integrasi HTML.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\HomeComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\LoginComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\BukuTabungan.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.exe
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.deps.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.dev.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csprojAssemblyReference.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.ResolveComReference.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorComponent.input.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\HomeComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\LoginComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\BukuTabungan.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfoInputs.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfo.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.input.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.output.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorCoreGenerate.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.Manifest.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.xml
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.genruntimeconfig.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CopyComplete
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\System.IO.Ports.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\System.IO.Ports.Native.so
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\System.IO.Ports.Native.so
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\System.IO.Ports.Native.so
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\System.IO.Ports.Native.dylib
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CoreCompileInputs.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Integrasi HTML.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\HomeComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\LoginComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\BukuTabungan.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.exe
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.deps.json
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.json
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.dev.json
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.dll
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csprojAssemblyReference.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.ResolveComReference.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorComponent.input.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\HomeComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\LoginComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\BukuTabungan.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\HistoriTransaksi.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfoInputs.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfo.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.input.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.output.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorCoreGenerate.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.Manifest.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.xml
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.genruntimeconfig.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CopyComplete
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\System.IO.Ports.dll
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\System.IO.Ports.Native.so
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\System.IO.Ports.Native.so
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\System.IO.Ports.Native.so
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\System.IO.Ports.Native.dylib
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
+C:\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CoreCompileInputs.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.MvcApplicationPartsAssemblyInfo.cache
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Integrasi HTML.dll
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\HomeComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\LoginComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\BukuTabungan.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriTransaksi.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\PilihMenu.razor.g.cs
+C:\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\PilihMenu.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.exe
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.deps.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.dev.json
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\System.IO.Ports.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\System.IO.Ports.Native.so
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\System.IO.Ports.Native.so
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\System.IO.Ports.Native.so
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\System.IO.Ports.Native.dylib
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csprojAssemblyReference.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.ResolveComReference.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CoreCompileInputs.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorComponent.input.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\HomeComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\LoginComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\BukuTabungan.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\PilihMenu.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Integrasi HTML.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.input.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.output.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorCoreGenerate.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\HomeComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\LoginComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\BukuTabungan.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\PilihMenu.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfoInputs.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfo.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cs
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CopyComplete
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.Manifest.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.xml
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.genruntimeconfig.cache
+C:\Users\TRILOGI\Documents\Trilogi\Project\BNI\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Printing.dll
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.exe
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.deps.json
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.json
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.dev.json
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.dll
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\System.IO.Ports.dll
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\System.IO.Ports.Native.so
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\System.IO.Ports.Native.so
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\System.IO.Ports.Native.so
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\System.IO.Ports.Native.dylib
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Printing.dll
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csprojAssemblyReference.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.ResolveComReference.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CoreCompileInputs.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorComponent.input.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\HomeComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\LoginComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\BukuTabungan.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\PilihMenu.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Integrasi HTML.dll
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.input.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.output.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorCoreGenerate.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\HomeComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\LoginComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\BukuTabungan.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\PilihMenu.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfoInputs.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfo.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cs
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CopyComplete
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.Manifest.cache
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.xml
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\VM_TRILOGY\Desktop\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.genruntimeconfig.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csprojAssemblyReference.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.ResolveComReference.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorComponent.input.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\HomeComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\LoginComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\BukuTabungan.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\PilihMenu.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.exe
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.deps.json
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.json
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.dev.json
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.IO.Ports.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\System.IO.Ports.Native.so
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\System.IO.Ports.Native.so
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\System.IO.Ports.Native.so
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\System.IO.Ports.Native.dylib
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Printing.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.input.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.output.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorCoreGenerate.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfo.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CopyComplete
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.Manifest.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.xml
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.genruntimeconfig.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ComponentModel.Composition.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ComponentModel.Composition.Registration.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Data.Odbc.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Data.OleDb.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.DirectoryServices.AccountManagement.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.DirectoryServices.Protocols.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Management.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Private.ServiceModel.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Reflection.Context.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Syndication.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Threading.AccessControl.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Integrasi HTML.dll
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\HomeComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\LoginComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\BukuTabungan.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\PilihMenu.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Project\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.exe
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.deps.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.dev.json
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ComponentModel.Composition.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ComponentModel.Composition.Registration.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Data.Odbc.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Data.OleDb.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.DirectoryServices.AccountManagement.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.DirectoryServices.Protocols.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.IO.Ports.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Management.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Private.ServiceModel.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Reflection.Context.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Syndication.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Threading.AccessControl.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\System.IO.Ports.Native.so
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\System.IO.Ports.Native.so
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\System.IO.Ports.Native.so
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\System.IO.Ports.Native.dylib
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Printing.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csprojAssemblyReference.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.ResolveComReference.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfo.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorComponent.input.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\HomeComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\LoginComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\BukuTabungan.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\PilihMenu.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Integrasi HTML.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.input.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.output.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorCoreGenerate.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\HomeComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\LoginComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\BukuTabungan.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriTransaksi.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\PilihMenu.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cs
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CopyComplete
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.Manifest.cache
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.xml
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Users\user\Documents\Trilogi Persada\Percobaan\Percobaan HTML\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.genruntimeconfig.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.exe
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.deps.json
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.json
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.runtimeconfig.dev.json
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.AccessControl.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ComponentModel.Composition.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ComponentModel.Composition.Registration.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Data.Odbc.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Data.OleDb.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.DirectoryServices.AccountManagement.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.DirectoryServices.Protocols.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.IO.Ports.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Management.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Private.ServiceModel.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Reflection.Context.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceModel.Syndication.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Threading.AccessControl.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.AccessControl.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\System.IO.Ports.Native.so
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\System.IO.Ports.Native.so
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\System.IO.Ports.Native.so
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\System.IO.Ports.Native.dylib
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\System.IO.Ports.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netstandard2.0\System.IO.Ports.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\bin\Debug\netcoreapp3.1\System.Printing.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csprojAssemblyReference.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.ResolveComReference.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfoInputs.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.AssemblyInfo.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CoreCompileInputs.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.MvcApplicationPartsAssemblyInfo.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorComponent.input.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\HomeComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\LoginComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\BukuTabungan.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\HistoriTransaksi.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\PilihMenu.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\RazorDeclaration\Integrasi HTML.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.input.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.TagHelpers.output.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorCoreGenerate.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\BukuPenuh.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakBerhasilComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\CetakGagalComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\BukuTabungan\DataComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanBerjalanComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanLaluComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\BulanTerakhirComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\PilihTransaksiComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\SepuluhTerakhirComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiBerhasilComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\HistoriTransaksi\TransaksiGagalComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\HomeComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\LoginComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Component\Index\PilihMenuComponent.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\BukuTabungan.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriTransaksi.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\PilihMenu.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorAssemblyInfo.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.RazorTargetAssemblyInfo.cs
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.Views.pdb
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.csproj.CopyComplete
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.Manifest.cache
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\staticwebassets\Integrasi HTML.StaticWebAssets.xml
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.dll
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.pdb
+C:\Trilogi Persada-BNI\Project BNI Passbook\Integrasi HTML\obj\Debug\netcoreapp3.1\Integrasi HTML.genruntimeconfig.cache
